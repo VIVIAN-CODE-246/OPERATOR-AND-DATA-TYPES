@@ -23,3 +23,13 @@ print(num1 == num2)
 print(num1 > num2)
 print(num2 < num1)
 print(num1 != num2)
+
+x = input("Enter value of x:")
+y = input("Enter value of y:")
+
+temp = x
+y = x
+y = temp
+
+print("value of x after swapping", x)
+print("value of y after swapping", y)
